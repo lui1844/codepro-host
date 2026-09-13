@@ -1,0 +1,15 @@
+CODEPRO HOST SITE V1 - CONFIGURAÇÃO RÁPIDA
+
+1) npm install
+2) copie .env.example para .env
+3) preencha BASE_URL, SESSION_SECRET, DISCORD_CLIENT_SECRET e ADMIN_DISCORD_IDS
+4) no Discord Developer Portal adicione:
+   https://SEU-DOMINIO.com/auth/discord/callback
+5) rode: node server.js
+6) entre com Discord
+7) abra /admin.html
+8) crie produtos/categorias (nenhum vem pronto)
+9) cadastre as salas HaxBall
+10) em Clientes, informe o Discord ID do comprador e marque quais painéis ele pode acessar
+
+A API Key do HaxBall fica só no servidor do site.
